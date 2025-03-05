@@ -2,8 +2,8 @@
  * Palette: https://colorhunt.co/palette/2c39303f4f44a27b5cdcd7c9
  * #2C3930 darker green
  * #3F4F44 lighter green
- * #A27B5C lighter beige
- * #DCD7C9 darker beige
+ * #A27B5C darker beige
+ * #DCD7C9 lighter beige
  */
 
 body {
@@ -12,20 +12,30 @@ body {
 
 #product-overview {
     background: #2C3930;
+    padding: 20px;
+    border: 5px #A27B5C solid;
+    margin: 20px;
 }
 
 #plans {
     background: #3F4F44;
+    padding: 20px;
+    border: 5px #DCD7C9 solid;
+    margin: 20px;
+}
+
+#plans p {
+    color: #DCD7C9;
 }
 
 /* a combinator; only h1 children (direct or indirect) of id product-overview apply this style */
 #product-overview h1 {
-    color: #DCD7C9;
+    color: #A27B5C;
     font-family: "Anton", sans-serif;
 }
 
 .section-title {
-    color: #A27B5C;
+    color: #DCD7C9;
     /*
      * increase specificity of inheritance and get font-family from body tag
      * only applies to this class; we would have to add this to other classes too
