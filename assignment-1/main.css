@@ -1,0 +1,48 @@
+/* task 5 */
+body {
+    font-family: sans-serif;
+}
+/* unnecessary for task 5, does nothing actually :) */
+/*li {*/
+/*    font-family: inherit;*/
+/*}*/
+
+/* task 1 */
+#assignment-instructions {
+    color: blue;
+    font-family: sans-serif;
+}
+
+/* task 2 */
+code {
+    color: red;
+    font-family: monospace;
+}
+
+/* task 3 */
+.second-li code {
+    color: green;
+}
+
+/* task 6 my solution with two combinators */
+/*.first-li {*/
+/*    background: white;*/
+/*    color: black;*/
+/*}*/
+
+/*ol li {*/
+/*    background: black;*/
+/*    color: white;*/
+/*}*/
+
+/* task 6, better solution with just one combinator */
+li + li {
+    background: black;
+    color: white;
+}
+
+/* task 7 */
+ol li {
+    background: black;
+    color: white;
+}
